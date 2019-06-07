@@ -2,8 +2,8 @@ version: '2'
 
 services:
   daf-test-env:
-    image: teamdigitale/daf-test-env
-    container_name: daf-test-env
+    image: teamdigitale/daf-infra-test-env
+    container_name: daf-infra-test-env
     build:
       context: ./
       dockerfile: Dockerfile

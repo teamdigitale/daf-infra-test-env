@@ -30,7 +30,7 @@ docker-compose up -d
 To access the container CLI use
 
 ```shell
-docker exec -it daf-test-env /bin/bash
+docker exec -it daf-infra-test-env /bin/bash
 ```
 
 You can now run all the commands as needed.
