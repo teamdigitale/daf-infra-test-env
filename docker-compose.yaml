@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  daf-test-env:
+    container_name: daf-test-env
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    tty: true
