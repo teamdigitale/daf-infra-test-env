@@ -2,6 +2,7 @@ version: '2'
 
 services:
   daf-test-env:
+    image: teamdigitale/daf-test-env
     container_name: daf-test-env
     build:
       context: ./
